@@ -4,7 +4,7 @@ const {app,BrowserWindow}= require('electron');
 
 function createWindow(){
     win = new BrowserWindow({width:800, height:200});
-    var n= 50;
+    var n= 10;
     console.log(n);
     win.loadFile('index.html');
     win.on('closed',()=>{
